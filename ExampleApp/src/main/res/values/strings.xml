@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">TabHelperDemo</string>
+  <string name="title_tab_1">Tab1</string>
+  <string name="title_tab_2">Tab2</string>
+  <string name="title_tab_3">Tab3</string>
+  <string name="title_detail">NextPage</string>
+</resources>
