@@ -58,6 +58,8 @@ class MainContainerActivity : AppCompatActivity(), BaseFragment.FragmentNavigati
         tabHelper = TabHelper(savedInstanceState, supportFragmentManager, R.id.mainConatiner, baseFragments)
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         navigation.setOnNavigationItemReselectedListener(mOnNavigationItemReSelectedListener)
+
+        tabHelper.switchTab(TabHelper.Tab.Tab1)
     }
 
     override fun onSaveInstanceState(outState: Bundle?) {

@@ -23,6 +23,6 @@ open class BaseFragment : Fragment() {
     }
 
     protected fun setTitle(title: String) {
-        if (activity is MainContainerActivity) activity.title = title
+        activity?.title = title
     }
 }
